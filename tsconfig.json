@@ -23,6 +23,8 @@
     "typings/browser",
     "node_modules",
     "app/core",
-    "app/scenes"
+    "app/scenes",
+    "app/App.ts",
+    "app/AppStart.tsx"
   ]
 }
