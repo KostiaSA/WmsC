@@ -1,0 +1,8 @@
+.idea
+*.js
+*.map
+*.rar
+node_modules/
+build/
+app/
+
