@@ -2,10 +2,10 @@ var webpack = require("webpack");
 
 
 module.exports = {
-    entry: "./build/WmsC/scripts/InitTables.js",
+    entry: "./build/WmsC/workflowServer/workflowServer.js",
 
     output: {
-        filename: "./bundle/InitTables_bundle.js"
+        filename: "./bundle/workflowServer_bundle.js"
     },
 
     resolve: {

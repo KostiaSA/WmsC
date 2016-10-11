@@ -4,5 +4,8 @@
 *.rar
 node_modules/
 build/
+bundle/
 app/
 
+!table-init.webpack.config.js
+!workflowServer.webpack.config.js

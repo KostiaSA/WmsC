@@ -10,7 +10,8 @@
     "init-gen-proc": "node build/WmsC/scripts/InitGenProc.js",
     "fill-barcodes": "node build/WmsC/scripts/FillBarcodes.js",
     "test1": "node build/WmsC/test/test1.js",
-    "webpack-init-tables": "webpack build/WmsC/scripts/InitTables.js build/InitTables_bundle.js"
+    "webpack-init-tables": "webpack build/WmsC/scripts/InitTables.js build/InitTables_bundle.js",
+    "workflowServer":"node build/WmsC/workflowServer/workflowServer.js"
   },
   "devDependencies": {
     "json-loader": "^0.5.4",
