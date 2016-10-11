@@ -9,18 +9,25 @@
     "init-utils": "node build/WmsC/scripts/InitUtils.js",
     "init-gen-proc": "node build/WmsC/scripts/InitGenProc.js",
     "fill-barcodes": "node build/WmsC/scripts/FillBarcodes.js",
-    "test1": "node build/WmsC/test/test1.js"
+    "test1": "node build/WmsC/test/test1.js",
+    "webpack-init-tables": "webpack build/WmsC/scripts/InitTables.js build/InitTables_bundle.js"
   },
   "devDependencies": {
+    "json-loader": "^0.5.4",
     "typescript": "^2.0.2"
   },
   "dependencies": {
     "chalk": "^1.1.3",
     "crypto-js": "^3.1.7",
+    "dgram": "^1.0.1",
+    "fs": "0.0.1-security",
     "lodash": "^4.15.0",
     "moment": "^2.15.1",
     "msnodesqlv8": "^0.2.8",
-    "mssql": "^3.3.0"
+    "mssql": "^3.3.0",
+    "net": "^1.0.2",
+    "tds": "^0.1.0",
+    "webpack": "^1.13.2"
   },
   "author": "",
   "license": "ISC"
